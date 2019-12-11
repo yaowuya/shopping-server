@@ -13,4 +13,4 @@ const schema = new mongoose.Schema({
     category: {type: mongoose.SchemaTypes.ObjectId, ref: 'Category'},
 })
 
-module.exports = mongoose.model('Goods', schema, 'Goods')
+module.exports = mongoose.model('Good', schema, 'Goods')

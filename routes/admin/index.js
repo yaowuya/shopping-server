@@ -13,9 +13,9 @@ module.exports = app => {
     //书籍
     const bookRouter = require("./middleware/BookRouter");
     app.use("/admin/api/book/:resource", authMiddleware(), resourceMiddleware(), bookRouter);//书籍
-    //广告图片
-    const photoRouter = require("./middleware/PhotoRouter");
-    app.use("/admin/api/photo/:resource", authMiddleware(), resourceMiddleware(), photoRouter);
+    //分页查询
+    const pageRouter = require("./middleware/PageRouter");
+    app.use("/admin/api/page/:resource", authMiddleware(), resourceMiddleware(), pageRouter);
 
     const multer = require('multer');
     const upload = multer({dest: __dirname + '/../../uploads'})
