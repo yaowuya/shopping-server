@@ -28,7 +28,7 @@ router.post('/good/pageList', async (req, res) => {
         ]
     }
     const count = await req.Model.countDocuments(condition)
-    const data = await req.Model.find(condition).sort(sort).skip(skipNum).limit(pageSize)
+    const data = await req.Model.find(condition).populate('category').sort(sort).skip(skipNum).limit(pageSize)
     res.json({
         count: count,
         data: data

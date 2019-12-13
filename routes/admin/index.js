@@ -17,6 +17,10 @@ module.exports = app => {
     const pageRouter = require("./middleware/PageRouter");
     app.use("/admin/api/page/:resource", authMiddleware(), resourceMiddleware(), pageRouter);
 
+    //小程序
+    const miniRouter = require("./middleware/MiniRouter");
+    app.use("/mini/:resource", resourceMiddleware(), miniRouter);
+
     const multer = require('multer');
     const upload = multer({dest: __dirname + '/../../uploads'})
     app.post('/admin/api/upload', authMiddleware(), upload.single('file'), async (req, res) => {
