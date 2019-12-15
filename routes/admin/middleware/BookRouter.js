@@ -21,7 +21,7 @@ router.post('/multiLevel', async (req, res) => {
 //查询多级分类
 router.post('/pagination', async (req, res) => {
   const { pageNum = 1, pageSize = 10, name } = req.body
-  const sort = { '_id': 'asc' }
+  const sort = { 'order': 'asc' }
   const skipNum = (pageNum - 1) * pageSize
   const condition = {
     $and: [

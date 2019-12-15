@@ -22,7 +22,26 @@ module.exports = app => {
     app.use("/mini/:resource", resourceMiddleware(), miniRouter);
 
     const multer = require('multer');
-    const upload = multer({dest: __dirname + '/../../uploads'})
+    const createFolder = function(folder){
+        try{
+            fs.accessSync(folder);
+        }catch(e){
+            fs.mkdirSync(folder);
+        }
+    };
+    const uploadFolder =  __dirname + '/../../uploads';
+    createFolder(uploadFolder);
+    // 通过 filename 属性定制
+    const storage = multer.diskStorage({
+        destination: function (req, file, cb) {
+            cb(null, uploadFolder);    // 保存的路径，备注：需要自己创建
+        },
+        filename: function (req, file, cb) {
+            // 将保存文件名设置为 字段名 + 时间戳
+            cb(null, file.fieldname + "_" + new Date().getTime() + "_" + file.originalname);
+        }
+    });
+    const upload = multer({ storage: storage })
     app.post('/admin/api/upload', authMiddleware(), upload.single('file'), async (req, res) => {
         const file = req.file
         file.url = `http://localhost:3000/uploads/${file.filename}`
@@ -74,7 +93,7 @@ module.exports = app => {
 
     // 错误处理函数
     app.use(async (err, req, res, next) => {
-        // console.log(err)
+
         res.status(err.statusCode || 500).send({
             message: err.message
         })

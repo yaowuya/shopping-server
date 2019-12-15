@@ -5,7 +5,6 @@ const schema = new mongoose.Schema({
     icon: {type: String},
     info: {type: String},
     from: {type: String},
-    ticket: {type: String},
     nowPrice: {type: String},
     underlinePrice: {type: String},
     otherPrice: {type: String},

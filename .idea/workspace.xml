@@ -2,34 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b2e5604-648c-4146-9eb6-60cb28aeba46" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/admin/css/app.6acd0cdb.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/css/chunk-0451140f.70db42cb.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/css/chunk-051bff21.95a04fc7.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/css/chunk-155507f8.ae0cc114.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/css/chunk-6a010b91.5e9c0b21.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/css/chunk-6ac6274e.50578128.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/css/chunk-libs.6c43717b.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/fonts/element-icons.535877f5.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/fonts/element-icons.732389de.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/img/404.a57b6f31.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/img/404_cloud.0f4bc32b.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/img/user.55b52cf4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/js/app.554873d6.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/js/chunk-0451140f.7df3bb97.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/js/chunk-051bff21.8364aae6.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/js/chunk-155507f8.4cb1fa2c.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/js/chunk-2d22ce43.da4be01e.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/js/chunk-6a010b91.312490c6.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/js/chunk-6ac6274e.3003fac5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/js/chunk-libs.d46dc427.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/admin/middleware/MiniRouter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/css/chunk-03e88ea0.309e645f.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/css/chunk-2f5bdf9b.7d86604f.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/css/chunk-312c5597.8704e495.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/css/chunk-68e5028a.2d6394e2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/js/chunk-03e88ea0.593cee9d.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/js/chunk-2d22ce43.0fd84645.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/js/chunk-2f5bdf9b.942a2177.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/js/chunk-68e5028a.c285c25b.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/css/chunk-0451140f.70db42cb.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/css/chunk-051bff21.95a04fc7.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/css/chunk-155507f8.ae0cc114.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/css/chunk-6ac6274e.50578128.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/js/app.554873d6.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/js/app.9ee80842.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/js/chunk-0451140f.7df3bb97.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/js/chunk-051bff21.8364aae6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/js/chunk-155507f8.4cb1fa2c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/js/chunk-2d22ce43.da4be01e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/js/chunk-6ac6274e.3003fac5.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/js/chunk-312c5597.534d7cd9.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middleware/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/middleware/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Category.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/Category.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Good.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/Good.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/admin/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/admin/middleware/PageRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin/middleware/PageRouter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/admin/middleware/commonRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin/middleware/commonRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/admin/middleware/BookRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin/middleware/BookRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/admin/middleware/MiniRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin/middleware/MiniRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/utils.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -51,20 +50,47 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/admin/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="20" column="58" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
+            <state relative-caret-position="85">
+              <caret line="46" column="41" lean-forward="true" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/routes/admin/middleware/MiniRouter.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/middleware/auth.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="7" column="78" selection-start-line="7" selection-start-column="78" selection-end-line="7" selection-end-column="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/utils.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="349">
+              <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="96">
-              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+              <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/admin/middleware/MiniRouter.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-408">
+              <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -72,7 +98,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/admin/middleware/commonRouter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
+            <state relative-caret-position="602">
               <caret line="74" column="23" selection-end-line="75" />
             </state>
           </provider>
@@ -81,8 +107,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/Good.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="12" column="12" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="12" />
+            <state relative-caret-position="144">
+              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -90,8 +116,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/Category.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="41" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="41" />
+            <state relative-caret-position="96">
+              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -117,17 +143,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/admin/middleware/PageRouter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="20" selection-start-line="20" selection-end-line="35" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/admin/middleware/BookRouter.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="360">
+              <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -161,17 +178,20 @@
         <option value="$PROJECT_DIR$/routes/admin/middleware/AdRouter.js" />
         <option value="$PROJECT_DIR$/models/Advertise.js" />
         <option value="$PROJECT_DIR$/models/Photo.js" />
-        <option value="$PROJECT_DIR$/models/Category.js" />
         <option value="$PROJECT_DIR$/middleware/resource.js" />
         <option value="$PROJECT_DIR$/models/Goods.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/routes/admin/middleware/PhotoRouter.js" />
-        <option value="$PROJECT_DIR$/models/Good.js" />
         <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/routes/admin/middleware/PageRouter.js" />
         <option value="$PROJECT_DIR$/routes/admin/middleware/commonRouter.js" />
-        <option value="$PROJECT_DIR$/routes/admin/index.js" />
+        <option value="$PROJECT_DIR$/models/Category.js" />
+        <option value="$PROJECT_DIR$/routes/admin/middleware/BookRouter.js" />
         <option value="$PROJECT_DIR$/routes/admin/middleware/MiniRouter.js" />
+        <option value="$PROJECT_DIR$/models/Good.js" />
+        <option value="$PROJECT_DIR$/utils/utils.js" />
+        <option value="$PROJECT_DIR$/middleware/auth.js" />
+        <option value="$PROJECT_DIR$/routes/admin/index.js" />
       </list>
     </option>
   </component>
@@ -197,6 +217,11 @@
             <path>
               <item name="shopping-server" type="b2602c69:ProjectViewProjectNode" />
               <item name="shopping-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopping-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping-server" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shopping-server" type="b2602c69:ProjectViewProjectNode" />
@@ -296,7 +321,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576031680275</updated>
-      <workItem from="1576031681772" duration="26195000" />
+      <workItem from="1576031681772" duration="39758000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1576063670016</created>
@@ -312,23 +337,30 @@
       <option name="project" value="LOCAL" />
       <updated>1576069492392</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="框架">
+      <created>1576241665476</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1576241665476</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26195000" />
+    <option name="totallyTimeSpent" value="39758000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="npm" side_tool="true" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3197158" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" sideWeight="0.49925372" weight="0.3285968" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.35523978" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.50074625" side_tool="true" weight="0.3285968" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -344,16 +376,40 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first" />
     <MESSAGE value="集合分页查询" />
-    <option name="LAST_COMMIT_MESSAGE" value="集合分页查询" />
+    <MESSAGE value="框架" />
+    <option name="LAST_COMMIT_MESSAGE" value="框架" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/utils/userAgent.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/utils.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/database/db.js">
@@ -398,20 +454,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/admin/middleware/BookRouter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/Category.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="41" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/Chapter.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -436,13 +478,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/admin/middleware/UserRouter.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -450,41 +485,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/middleware/auth.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/admin/index.js">
+    <entry file="file://$PROJECT_DIR$/models/Category.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="20" column="58" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/admin/middleware/PageRouter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="20" selection-start-line="20" selection-end-line="35" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/Good.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="12" />
+        <state relative-caret-position="96">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/admin/middleware/commonRouter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
+        <state relative-caret-position="602">
           <caret line="74" column="23" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/js/app.6c698bb4.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/admin/middleware/BookRouter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/admin/middleware/PageRouter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/admin/middleware/MiniRouter.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-408">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Good.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middleware/auth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="7" column="78" selection-start-line="7" selection-start-column="78" selection-end-line="7" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/js/app.9ee80842.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/admin/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="46" column="41" lean-forward="true" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="41" />
         </state>
       </provider>
     </entry>
