@@ -4,11 +4,11 @@ const router = express.Router({
 })
 //分页查询信息
 router.post('/photo/pageList', async (req, res) => {
-    const { pageNum = 1, pageSize = 10, name, sort } = req.body
+    const {pageNum = 1, pageSize = 10, name, sort} = req.body
     const skipNum = (pageNum - 1) * pageSize
     const condition = {
         $and: [
-            { name: { $regex: name, $options: 'i' } }
+            {name: {$regex: name, $options: 'i'}}
         ]
     }
     const count = await req.Model.countDocuments(condition)
@@ -20,13 +20,17 @@ router.post('/photo/pageList', async (req, res) => {
 })
 //分页分类信息
 router.post('/good/pageList', async (req, res) => {
-    const { pageNum = 1, pageSize = 10, name, sort } = req.body
+    const {pageNum = 1, pageSize = 10, name, category, sort} = req.body
     const skipNum = (pageNum - 1) * pageSize
-    const condition = {
+    let condition = {
         $and: [
-            { name: { $regex: name, $options: 'i' } }
+            {name: {$regex: name, $options: 'i'}}
         ]
     }
+    if (category.length > 0) {
+        condition.$and.push({category: {$in: category}})
+    }
+    console.log(condition);
     const count = await req.Model.countDocuments(condition)
     const data = await req.Model.find(condition).populate('category').sort(sort).skip(skipNum).limit(pageSize)
     res.json({
