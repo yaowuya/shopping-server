@@ -44,8 +44,8 @@ module.exports = app => {
     const upload = multer({ storage: storage })
     app.post('/admin/api/upload', authMiddleware(), upload.single('file'), async (req, res) => {
         const file = req.file
-        file.url = `http://localhost:3000/uploads/${file.filename}`
-        // file.url = `http://139.224.188.37/uploads/${file.filename}`
+        // file.url = `http://localhost:3000/uploads/${file.filename}`
+        file.url = `https://shop.yongpingshop.com/uploads/${file.filename}`
         res.send(file)
     });
     //删除文件
